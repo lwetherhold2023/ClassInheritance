@@ -1,47 +1,85 @@
 // Car Class inherits from Vehicle Class
 public class Car extends Vehicle {
     // set up variables
-    int wheels = 4;
-    String color = "White";
+    String color = ""; // has an extra variable, color
+    int wheels = 0; // has an extra variable, wheels
     boolean spoiler = false;
     boolean stereo = false;
-    double mpg = 0.0; //has an extra variable, mpg
+    double mpg = 0.0; // has an extra variable, mpg
 
     // class constructor - default
     public Car() {
-        super("", 0, 0, 0);
-        this.mpg = 0;
+        super("", 0.0, 0, 0.0);
+        this.color = "";
+        this.wheels = 0;
+        this.mpg = 0.0;
     }
 
     // class constructor - alternate
-    public Car(String inBrand, double inSpeed, int inPassengers, double inCargo,
-               double inMPG) {
-        super(inBrand, inSpeed, inPassengers, inCargo); // uses the super constructor
-        this.mpg = inMPG; // also include the extra variable in the Car constructor
+    public Car(String brand, double speed, int passengers, double cargo,
+               String color, int wheels, double mpg) {
+        super(brand, speed, passengers, cargo); // uses the super constructor
+        this.color = color; // also include the extra variable in the Car constructor
+        this.wheels = wheels; // also include the extra variable in the Car constructor
+        this.mpg = mpg; // also include the extra variable in the Car constructor
+    }
+
+    // set wheels
+    public void setWheels(int wheels) {
+        this.wheels = wheels;
+    }
+
+    // get wheels
+    public int getWheels() {
+        return this.wheels;
+    }
+
+    // set color
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    // get color
+    public String getColor() {
+        return this.color;
     }
 
     // set spoiler
-    public void setSpoiler(boolean inSpoiler) {
-        spoiler = inSpoiler;
+    public void setSpoiler(boolean spoiler) {
+        this.spoiler = spoiler;
     }
 
     // get spoiler
     public boolean getSpoiler() {
-        return spoiler;
+        return this.spoiler;
     }
 
     // set stereo
-    public void setStereo(boolean inStereo) {
-        stereo = inStereo;
+    public void setStereo(boolean stereo) {
+        this.stereo = stereo;
     }
 
     // get stereo
     public boolean getStereo() {
-        return stereo;
+        return this.stereo;
+    }
+
+    // set mpg
+    public void setMPG(double mpg) {
+        this.mpg = mpg;
+    }
+
+    // get mpg
+    public double getMPG() {
+        if (stereo) {
+            return this.mpg - (this.mpg / 10);
+        } else {
+            return this.mpg;
+        }
     }
 
     // get speed
-    //overrides the super getSpeed method
+    // overrides the super getSpeed method
     @Override
     public double getSpeed() {
         if (spoiler) {
@@ -51,25 +89,12 @@ public class Car extends Vehicle {
         }
     }
 
-    // set mpg
-    public void setMpg(double mpg) {
-        this.mpg = mpg;
-    }
-
-    // get mpg
-    public double getMPG() {
-        if (stereo) {
-            return mpg - (mpg / 10);
-        } else {
-            return mpg;
-        }
-    }
-
     // toString method
     // uses the super toString, as well as adding the new variable to it.
     public String toString() {
-        String result = super.toString() + "MPG :\t\t\t" + this.getMPG();
-        return result;
+        return super.toString() + "Color: \t\t\t" + this.getColor() + "\n" +
+                                  "Wheels: \t\t" + this.getWheels() + "\n" +
+                                  "MPG: \t\t\t" + this.getMPG() + "\n";
     }
 }
 

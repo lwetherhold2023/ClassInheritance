@@ -27,19 +27,14 @@ public class Vehicle implements Speedometer {
         this.cargoWeight = cargoWeight;
     }
 
-    // get brand
-    public String getBrand() {
-        return this.brand;
-    }
-
     // set brand
     public void setBrand(String brand) {
         this.brand = brand;
     }
 
-    // get speed
-    public double getSpeed() {
-        return this.speed;
+    // get brand
+    public String getBrand() {
+        return this.brand;
     }
 
     // set speed
@@ -47,9 +42,9 @@ public class Vehicle implements Speedometer {
         this.speed = speed;
     }
 
-    // get passengers
-    public int getPassengers() {
-        return this.passengers;
+    // get speed
+    public double getSpeed() {
+        return this.speed;
     }
 
     // set passengers
@@ -57,9 +52,9 @@ public class Vehicle implements Speedometer {
         this.passengers = passengers;
     }
 
-    // get cargo weight
-    public double getCargoWeight() {
-        return this.cargoWeight;
+    // get passengers
+    public int getPassengers() {
+        return this.passengers;
     }
 
     // set cargo weight
@@ -67,11 +62,16 @@ public class Vehicle implements Speedometer {
         this.cargoWeight = cargoWeight;
     }
 
+    // get cargo weight
+    public double getCargoWeight() {
+        return this.cargoWeight;
+    }
+
     // toString method
     public String toString() {
         return "Brand: \t\t\t" + this.getBrand() + "\n" +
-                "Speed (mph): \t" + this.getSpeed() + "\n" +
-                "Passengers: \t" + this.getPassengers() + "\n" +
-                "Cargo (lbs): \t" + this.getCargoWeight() + "\n";
+               "Speed (mph): \t" + this.getSpeed() + "\n" +
+               "Passengers: \t" + this.getPassengers() + "\n" +
+               "Cargo (lbs): \t" + this.getCargoWeight() + "\n";
     }
 }

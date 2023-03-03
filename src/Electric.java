@@ -49,7 +49,7 @@ public class Electric extends Car {
     }
 
     // toString method
-    // uses the super toString, as well as adding the new variable to it.
+    // uses the super toString, as well as adding the new variables to it
     public String toString() {
         return super.toString() + "Battery: \t\t" + this.getBattery() + "\n" +
                                   "Range (mi): \t" + this.getRange() + "\n";

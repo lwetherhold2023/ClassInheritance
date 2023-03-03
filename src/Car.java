@@ -3,8 +3,8 @@ public class Car extends Vehicle {
     // set up variables
     String color = ""; // has an extra variable, color
     int wheels = 0; // has an extra variable, wheels
-    boolean spoiler = false;
-    boolean stereo = false;
+    boolean spoiler = false; // has a modifier, spoiler
+    boolean stereo = false; // has a modifier, stereo
     double mpg = 0.0; // has an extra variable, mpg
 
     // class constructor - default
@@ -90,7 +90,7 @@ public class Car extends Vehicle {
     }
 
     // toString method
-    // uses the super toString, as well as adding the new variable to it.
+    // uses the super toString, as well as adding the new variables to it
     public String toString() {
         return super.toString() + "Color: \t\t\t" + this.getColor() + "\n" +
                                   "Wheels: \t\t" + this.getWheels() + "\n" +

@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6118f59-d588-48c7-988d-8489deb607c9" name="Changes" comment="Development: Day 2 (added to Vehicle class and developed Electric class)">
+    <list default="true" id="e6118f59-d588-48c7-988d-8489deb607c9" name="Changes" comment="Development: Day 3 (modified Main class, developed and finalized Hydrogen class, and developed Boat class)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Electric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Electric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hydrogen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hydrogen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CruiseShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CruiseShip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,12 +64,20 @@
       <option name="project" value="LOCAL" />
       <updated>1677701939605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Development: Day 3 (modified Main class, developed and finalized Hydrogen class, and developed Boat class)">
+      <created>1677864466478</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677864466478</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Development: Day 1 (initial commit)" />
     <MESSAGE value="Development: Day 2 (added to Vehicle class and developed Electric class)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Development: Day 2 (added to Vehicle class and developed Electric class)" />
+    <MESSAGE value="Development: Day 3 (modified Main class, developed and finalized Hydrogen class, and developed Boat class)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Development: Day 3 (modified Main class, developed and finalized Hydrogen class, and developed Boat class)" />
   </component>
 </project>

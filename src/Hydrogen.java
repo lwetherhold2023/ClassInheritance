@@ -89,6 +89,6 @@ public class Hydrogen extends Car {
     // uses the super toString, as well as adding the new variables to it
     public String toString() {
         return super.toString() + "Fuel Cell: \t\t" + this.getFuelCell() + "\n" +
-                "Range (mi): \t" + this.getRange() + "\n";
+                                  "Range (mi): \t" + this.getRange() + "\n";
     }
 }

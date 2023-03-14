@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // set up boat object of the base Vehicle class
-        Vehicle boat1 = new Vehicle("Maersk (Vehicle)", 30.0, 2000, 100000.0);
+        Vehicle v = new Vehicle("Maersk (Vehicle)", 30.0, 2000, 100000.0);
 
         // set up car object of the child Car class
         Car car1 = new Car("BMW (Car Vehicle)", 200.0, 2, 100.0, "White", 4, 30.0);
@@ -16,14 +16,32 @@ public class Main {
         ((Hydrogen)hydrogenCar1).setBattery(true);
 
         // set up boat object of the child Boat class
-        Boat boat2 = new Boat("Yacht (Boat Vehicle)", 80.5, 13, 500.0, "Wood", 2.5);
-        boat2.setMachinery(true);
+        Boat boat1 = new Boat("Yacht (Boat Vehicle)", 80.5, 13, 500.0, "Wood", 2.5);
+        boat1.setMachinery(true);
+
+        // set up cruise ship object of the child CruiseShip class
+        CruiseShip cruiseShip1 = new CruiseShip("Wonder of the Seas (Cruise Ship Boat Vehicle)", 25.0, 6988, 100000.0, "Steel", 0.004, "Hawai'i");
+        cruiseShip1.setMachinery(true);
+        cruiseShip1.setCafeteria(true);
+        cruiseShip1.setPool(true);
+
+        // set up airplane object of the child Airplane class
+        Airplane airplane1 = new Airplane("Delta (Airplane Vehicle)", 575.0, 660, 33000.0, "Jet", 26024, 2, 18);
+        airplane1.setSpoiler(true);
+
+        // set up jet object of the child Jet class
+        Jet jet1 = new Jet("Bombardier (Jet Airplane Vehicle)", 750.0, 12, 500.0, "Reciprocating", 1612, 4, 4, "Jet A", 4, 41000, 2, 3);
+        jet1.setPropeller(true);
+        jet1.setSpoiler(true);
 
         // output info
-        System.out.println(boat1);
+        System.out.println(v);
         System.out.println(car1);
         System.out.println(electricCar1);
         System.out.println(hydrogenCar1);
-        System.out.println(boat2);
+        System.out.println(boat1);
+        System.out.println(cruiseShip1);
+        System.out.println(airplane1);
+        System.out.println(jet1);
     }
 }

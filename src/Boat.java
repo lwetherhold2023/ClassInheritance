@@ -19,7 +19,7 @@ public class Boat extends Vehicle {
 
     // class constructor - alternate
     public Boat(String brand, double speed, int passengers, double cargo,
-               String material, double nmpg) {
+                String material, double nmpg) {
         super(brand, speed, passengers, cargo); // uses the super constructor
         this.material = material; // also include the extra variable in the Boat constructor
         this.knots = 0.0; // also include the extra variable in the Boat constructor
@@ -115,7 +115,7 @@ public class Boat extends Vehicle {
     // uses the super toString, as well as adding the new variables to it
     public String toString() {
         return super.toString() + "Material: \t\t" + this.getMaterial() + "\n" +
-                "Speed (nmh): \t" + String.format("%.2f", this.getKnots()) + "\n" +
-                "NMPG: \t\t\t" + this.getNMPG() + "\n";
+                                  "Speed (nmh): \t" + String.format("%.2f", this.getKnots()) + "\n" +
+                                  "NMPG: \t\t\t" + this.getNMPG() + "\n";
     }
 }

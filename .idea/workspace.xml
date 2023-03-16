@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6118f59-d588-48c7-988d-8489deb607c9" name="Changes" comment="Development: Day 4 (finalized Boat class and developed CruiseShip class)">
+    <list default="true" id="e6118f59-d588-48c7-988d-8489deb607c9" name="Changes" comment="Development: Day 5 (finalized CruiseShip class, Airplane class, and Jet class)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CruiseShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CruiseShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hydrogen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hydrogen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Jet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spaceship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Train.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +78,33 @@
       <option name="project" value="LOCAL" />
       <updated>1678392928853</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Development: Day 5 (finalized CruiseShip class, Airplane class, and Jet class)">
+      <created>1678811281709</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678811281709</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Development: Day 1 (initial commit)" />
     <MESSAGE value="Development: Day 2 (added to Vehicle class and developed Electric class)" />
     <MESSAGE value="Development: Day 3 (modified Main class, developed and finalized Hydrogen class, and developed Boat class)" />
     <MESSAGE value="Development: Day 4 (finalized Boat class and developed CruiseShip class)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Development: Day 4 (finalized Boat class and developed CruiseShip class)" />
+    <MESSAGE value="Development: Day 5 (finalized CruiseShip class, Airplane class, and Jet class)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Development: Day 5 (finalized CruiseShip class, Airplane class, and Jet class)" />
   </component>
 </project>

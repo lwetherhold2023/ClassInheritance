@@ -34,6 +34,13 @@ public class Main {
         jet1.setPropeller(true);
         jet1.setSpoiler(true);
 
+        // set up train object of the child Train class
+        Train train1 = new Train("Shanghai Maglev (Train Vehicle)", 59.0, 150, 525.0, "Electric", 12);
+        train1.setMaglev(true);
+
+        // set up spaceship object of the child Spaceship class
+        Spaceship spaceship1 = new Spaceship("NASA (Spaceship Vehicle)", 17500.0, 10, 675.0, "Rocket Engine", "Liquid Hydrogen", 11000);
+
         // output info
         System.out.println(v);
         System.out.println(car1);
@@ -43,5 +50,7 @@ public class Main {
         System.out.println(cruiseShip1);
         System.out.println(airplane1);
         System.out.println(jet1);
+        System.out.println(train1);
+        System.out.println(spaceship1);
     }
 }
